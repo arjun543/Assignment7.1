@@ -1,11 +1,11 @@
 1. Why Map-reduce program is needed in Pig Programming?
-
-
-
-
-
+Pig works on the top of hdfs using map-reduce program ,
+here pig as compiler which converts Latin script commands into java program to perform the map reduce 
 
 2. What are advantages of pig over MapReduce?
+
+
+
 3. What is pig engine and what is its importance?
 4. What are the modes of Pig execution?
 5. What is grunt shell in Pig?
