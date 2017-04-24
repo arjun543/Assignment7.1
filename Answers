@@ -1,14 +1,50 @@
 1. Why Map-reduce program is needed in Pig Programming?
-Pig works on the top of hdfs using map-reduce program ,
+Answer :Pig works on the top of hdfs using map-reduce program ,
 here pig as compiler which converts Latin script commands into java program to perform the map reduce 
 
 2. What are advantages of pig over MapReduce?
 
+Answer :Pig performs same things which can be performed by MapReduce java in less lines .
+Java programming knowledge is not required .
+Pig is easy because it doesnot involve complex syntaxes
+There is no need of compilation fr pig ,but MapReduce programming have long compilation process.
 
 
-3. What is pig engine and what is its importance?
+3. What is pig engine and what is its importance
+Apache Pig has a component known as Pig Engine that accepts the Pig Latin scripts as input and converts those scripts into MapReduce jobs.
+
 4. What are the modes of Pig execution?
+Ans : There are two modes of Pig Execition 
+ a.local mode = pig -x local
+ b. mapreduce mode = pig -x mapreduce
+ 
+ 
 5. What is grunt shell in Pig?
+
+Answer :  
+
+You can run Apache Pig in interactive mode using the Grunt shell. In this shell, you can enter the Pig Latin statements and get the output (using Dump operator).
+
+
+
 6. What are the features of Pig Latin language?
+
+ Pig comes with the following features −
+
+Rich set of operators − It provides many operators to perform operations like join, sort, filer, etc.
+
+Ease of programming − Pig Latin is similar to SQL and it is easy to write a Pig script if you are good at SQL.
+
+Optimization opportunities − The tasks in Apache Pig optimize their execution automatically, so the programmers need to focus only on semantics of the language.
+
+Extensibility − Using the existing operators, users can develop their own functions to read, process, and write data.
+
+UDF’s − Pig provides the facility to create User-defined Functions in other programming languages such as Java and invoke or embed them in Pig Scripts.
+
+Handles all kinds of data − Apache Pig analyzes all kinds of data, both structured as well as unstructured. It stores the results in HDFS.
+
+
 7. Is Pig latin commands case sensitive?
+
 8. What is a data flow language?
+answer : dataflow programming is a programming paradigm that models a program as a directed graph of the data flowing between operations, thus implementing dataflow principles and architecture. Dataflow programming languages share some features of functional languages, and were generally developed in order to bring some functional concepts to a language more suitable for numeric processing. 
